@@ -11,6 +11,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Calendar", "Calendar\Calend
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Log", "Log\Log.pyproj", "{D90D8F27-B5A0-4135-8F67-534950D4C50C}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PaxosDistributedCalendarMain", "PaxosDistributedCalendarMain\PaxosDistributedCalendarMain.pyproj", "{68C89065-527E-4A43-957F-1B0C08CF2B2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,8 @@ Global
 		{1A90DDC0-9710-449E-B22C-B39AE38BC9B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D90D8F27-B5A0-4135-8F67-534950D4C50C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D90D8F27-B5A0-4135-8F67-534950D4C50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68C89065-527E-4A43-957F-1B0C08CF2B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68C89065-527E-4A43-957F-1B0C08CF2B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
