@@ -111,6 +111,7 @@ class CalEvent(object):
         self.owner = owner
         self.insertTime = insertTime
         self.lamportClock = lamportClock
+   
 
     def __str__(self):
         elements = {}
@@ -124,10 +125,19 @@ class CalEvent(object):
         assert(isinstance(self.startTS,datetime.datetime))
         d = datetime.datetime.now()
         data += "From {} to {}".format(self.startTS.isoformat(),self.endTS.isoformat())
-        print(y)
         return data
-        
-        
+
+    def __eq__(self, other):
+        #Currently checks to see if startdate, enddate and participants are the same:
+        if(isinstance(other,CalEvent)):
+            
+            ptMatch = sorted(self.participants) == sorted(other.participants)
+            timeMatch = (self.startTS == other.startTS) and (self.endTS == other.startTS)
+            
+            return ptMatch and timeMatch
+        return False
+             
+                                
     @property
     def uName(self):
         return self.owner
@@ -163,10 +173,11 @@ class CalEvent(object):
 
         # for part in othCal.participants:
         #     collab = collab or int(self.uName) == int(part)
+        cbs = list(filter(lambda part: part in self.participants, othCal.participants))
 
         for participant in self.participants:
             for oPart in othCal.participants:
-                collab = collab or int(participant) == int(oPart)
+                collab = collab or participant == oPart
 
 
         return (overlap and collab)
