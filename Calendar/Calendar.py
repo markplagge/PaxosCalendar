@@ -274,8 +274,3 @@ class Calendar(object):
             js1 = json.dumps(bigDict, indent=4, sort_keys=True)
             f.writelines(js1)
 
-
-
-
-cal  = CalEvent(endTS=datetime.datetime(2015,12,1,5,30),owner="Tester!!")
-print(cal)
