@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Interface", "Interface\Interface.pyproj", "{8F627130-354B-4A3A-A9D3-4479ADCFDAE6}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "InterfaceController", "Interface\InterfaceController.pyproj", "{8F627130-354B-4A3A-A9D3-4479ADCFDAE6}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Server", "Server\Server.pyproj", "{E05B7B12-688A-40DC-B92F-2E744951E1A7}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Calendar", "Calendar\Calendar.pyproj", "{1A90DDC0-9710-449E-B22C-B39AE38BC9B8}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Log", "Log\Log.pyproj", "{D90D8F27-B5A0-4135-8F67-534950D4C50C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +19,12 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8F627130-354B-4A3A-A9D3-4479ADCFDAE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8F627130-354B-4A3A-A9D3-4479ADCFDAE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E05B7B12-688A-40DC-B92F-2E744951E1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E05B7B12-688A-40DC-B92F-2E744951E1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A90DDC0-9710-449E-B22C-B39AE38BC9B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A90DDC0-9710-449E-B22C-B39AE38BC9B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D90D8F27-B5A0-4135-8F67-534950D4C50C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D90D8F27-B5A0-4135-8F67-534950D4C50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

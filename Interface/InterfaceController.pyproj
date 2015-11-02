@@ -6,7 +6,7 @@
     <ProjectGuid>8f627130-354b-4a3a-a9d3-4479adcfdae6</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Interface.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Interface.py" />
+    <Compile Include="main.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
